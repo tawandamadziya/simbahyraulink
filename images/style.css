@@ -1,0 +1,179 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing:border-box;
+}
+
+.navbar{
+  height: 100%;
+  width: 100%;
+  height:100px;
+  border-bottom: blue solid 3px;
+}
+
+#features i:hover{
+  color: red;
+}
+
+.navbar-brand{
+  color: blue ! important;
+  font-size:24px;
+}
+.nav-link{
+  text-transform: uppercase;
+}
+.nav-link:hover{
+  color: blue ! important;
+}
+
+.container{
+  width:100%;
+  height:300px;
+  background: #222;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.swiper{
+  width:1200px;
+  height:300px;
+}
+
+.swiper-slide{
+  height:300px;
+  width:1200px;
+  filter: grayscale();
+}
+
+.swiper .swiper-butto-prev, .swiper .swiper-button-next{
+  color: #fff;
+}
+
+.swiper .swiper-pagination-bullet-active{
+  background: #fff;
+}
+.swiper-wrapper{
+  position: relative; left: 50%;
+  size-adjust: 1200px;
+}
+#i1{
+  width: 1200px;
+  height: 100%;
+}
+#i2{
+  width: 1200px;
+  height: 100%;
+}
+#i3{
+  width: 1200px;
+  height: 100%;  
+}
+#i4{
+  width: 350px;
+  height: 250px;
+}
+#What{
+  background-color: blue;
+  background-size: cover;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: white;
+  height:20vh;
+}
+
+#empty{
+  background-color: blue;
+  background-size: cover;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: white;
+  height:17vh;
+}
+
+* {
+  -webkit-overflow-scrolling: touch;
+}
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.maps{
+  width: 2000px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+iframe{
+  width: 80%;
+  height: 500px;
+  filter: invert(100%);
+}
+
+.input{
+  background: #f2f2f2;
+  padding: 12px;
+  border-radius: 3px;
+  width: 250px;
+
+}
+
+.textarea{
+  background: #f2f2f2;
+  padding: 12px;
+  border-radius: 3px;
+  width: 250px;
+  height: 150px;
+}
+
+.pics{
+  float:left;
+  padding:0;
+  margin:0;
+  max-width: 100%;
+  max-height:100%;
+  object-fit: cover;
+  height:160px;
+  width:180px;
+  margin-left:auto;
+  margin-right:auto;
+  border:1px solid blue;
+  padding:2em;
+  border-radius:10em;
+  box-shadow:10px 10px 10px rgba(0,0,0,0.1)
+}
+
+.pics:hover{
+  border:2px solid red;
+}
+
+
+
+.button{
+  width: 250px;
+  height: 250px;
+}
+
+.input:focus::placeholder{
+  color: #222;
+}
+
+.input::placeholder{
+  color: #222;
+  transition: color 0.3s ease;
+}
+#Last{
+  background-color: black;
+  background-size: cover;
+  height:57vh;
+}
+.Last-img{
+  height:140px;
+  width:200px;
+}
+.last-texts{
+  font-size:15px;
+  font-style:italic;
+  color:white;
+}
